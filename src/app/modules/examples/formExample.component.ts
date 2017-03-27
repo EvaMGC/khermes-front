@@ -25,7 +25,7 @@ import { FormGroup, FormBuilder, Validators } from "@angular/forms";
 
 export class FormExampleComponent {
    public model: FormModel = {
-      name: '@stratio/egeo',
+      name: 'Egeo',
       description: '',
       components: 10
    };
