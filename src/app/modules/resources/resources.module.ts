@@ -20,7 +20,7 @@ import {
    ResourcesComponent, ResourcesRoutingModule, InfoCardExampleComponent
 } from '.';
 import { SharedModule } from "@starter/shared";
-import { EgeoModule } from "egeo";
+import { EgeoModule } from "@stratio/egeo";
 
 @NgModule({
    declarations: [

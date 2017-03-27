@@ -15,7 +15,7 @@
  */
 
 import { Component } from '@angular/core';
-import { StInputError } from "egeo";
+import { StInputError } from "@stratio/egeo";
 import { FormGroup, FormBuilder, Validators } from "@angular/forms";
 
 @Component({
@@ -25,7 +25,7 @@ import { FormGroup, FormBuilder, Validators } from "@angular/forms";
 
 export class FormExampleComponent {
    public model: FormModel = {
-      name: 'Egeo',
+      name: '@stratio/egeo',
       description: '',
       components: 10
    };

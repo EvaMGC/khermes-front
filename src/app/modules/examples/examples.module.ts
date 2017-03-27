@@ -22,7 +22,7 @@ import {
 } from '.';
 import { SharedModule } from "@starter/shared";
 import { ReactiveFormsModule } from "@angular/forms";
-import { EgeoModule } from "egeo";
+import { EgeoModule } from "@stratio/egeo";
 
 @NgModule({
    declarations: [
